@@ -1,0 +1,20 @@
+<apex:page showHeader="false" sidebar="false" standardController="Contact" recordSetVar="contacts" standardStylesheets="false">
+    <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <apex:form >        
+        
+            <ul class="list-group">
+            <apex:repeat id="rptContact" value="{!contacts}" var="c">
+                <li class="list-group-item">{!c.Name}</li>
+            </apex:repeat>
+            </ul>
+        
+    </apex:form>
+</apex:page>

@@ -1,0 +1,10 @@
+<!--docsample:nestedComponents-->
+<aura:component >
+    Observe!  Components within components!
+
+    <c:helloHTML />
+
+    <c:helloAttributes whom="component composition"/>
+
+    <c:Nd_lAddition num1="100" num2="150"/>
+</aura:component>

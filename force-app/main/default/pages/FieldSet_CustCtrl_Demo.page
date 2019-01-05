@@ -1,0 +1,24 @@
+<apex:page controller="FieldSet_CustCtrl">
+    <apex:form >
+      <apex:pageBlock title="Contact Details">
+           <apex:repeat value="{!LstContact}" var="c">
+
+          <apex:pageBlockSection title="" columns="2">
+              <apex:facet name="header">
+                  <apex:outputLabel value="{!c.Name}" ></apex:outputLabel>
+              </apex:facet>
+            <apex:outputText value="{!c.Name}"/>
+            <apex:outputText value="{!c.Email}"/>
+            <apex:outputText value="{!c.Description}"/>
+            <apex:outputText value="{!c.Phone}"/>
+             <apex:pageBlockSection title="Contact Fields thourgh Feild Sets" columns="2" >
+              <apex:repeat value="{!ContactFields}" var="f">
+                  <apex:outputText value="{!c[f.fieldPath]}" label="{!f.Label}"/>                
+              </apex:repeat>
+          </apex:pageBlockSection> 
+          </apex:pageBlockSection>                
+      </apex:repeat>
+        </apex:pageBlock>
+        
+    </apex:form>  
+</apex:page>

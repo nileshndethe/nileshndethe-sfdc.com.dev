@@ -1,0 +1,3 @@
+<design:component>
+	<design:attribute name="whom" label="Whom you want to say hello?" default="HIT Team" description="Specify the name you want to say helllo." />
+</design:component>

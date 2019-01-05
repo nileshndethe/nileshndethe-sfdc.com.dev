@@ -1,0 +1,17 @@
+<apex:page doctype="html-5.0" standardcontroller="Contact" title="Show Assistant Information">    
+    <apex:remoteobjects >
+        <apex:remoteobjectmodel name="Contact" fields="Id,AssistantName,AssistantPhone" />
+    </apex:remoteobjects>
+    <div>
+        <table>
+            <tr>
+                <td>Assistant Name: </td>
+                <td>{!contact.AssistantName}</td>
+            </tr>
+            <tr>
+                <td>Assistant Phone: </td>
+                <td><a href="tel:{!contact.AssistantPhone}"> {!contact.AssistantPhone}</a></td>
+            </tr>
+        </table>
+    </div>
+</apex:page>

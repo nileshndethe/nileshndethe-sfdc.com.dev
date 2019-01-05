@@ -1,0 +1,49 @@
+<aura:component >
+<!--Possible values for the attribute are 'Monday', 'Tuesday' and so on.-->
+<aura:attribute name="DayOfTheWeek" type="String" /> 
+<aura:if isTrue="{!v.DayOfTheWeek == 'Monday'?True:False}">
+	Today is {!v.DayOfTheWeek}
+	<aura:set attribute="else">
+		<aura:if isTrue="{!v.DayOfTheWeek == 'Tuesday'?True:False}">
+			Today is {!v.DayOfTheWeek}
+			<aura:set attribute="else">
+				<aura:if isTrue="{!v.DayOfTheWeek == 'Wednesday'?True:False}">
+					Today is {!v.DayOfTheWeek}
+					<aura:set attribute="else">
+						<aura:if isTrue="{!v.DayOfTheWeek == 'Thursday'?True:False}">
+							Today is {!v.DayOfTheWeek}
+							<aura:set attribute="else">
+								<aura:if isTrue="{!v.DayOfTheWeek == 'Friday'?True:False}">
+									Today is {!v.DayOfTheWeek}
+									<aura:set attribute="else">
+										<aura:if isTrue="{!v.DayOfTheWeek == 'Saturday'?True:False}">
+											Today is {!v.DayOfTheWeek}
+											<aura:set attribute="else">
+												<aura:if isTrue="{!v.DayOfTheWeek == 'Sunday'?True:False}">
+													Today is {!v.DayOfTheWeek}
+													<aura:set attribute="else">
+														"{!v.DayOfTheWeek}" day is not valid week day! 
+													</aura:set>
+												</aura:if>
+											</aura:set>
+										</aura:if>
+									</aura:set>									
+								</aura:if>
+							</aura:set>
+						</aura:if>
+					</aura:set>
+				</aura:if>
+			</aura:set>
+		</aura:if>
+	</aura:set>
+</aura:if>
+
+<!--
+<aura:if isTrue="{!v.DayOfTheWeek == 'Monday'?True:False}">
+	Today is {!v.DayOfTheWeek}
+</aura:if>
+<aura:if isTrue="{!v.DayOfTheWeek == 'Monday'?True:False}">
+	Today is {!v.DayOfTheWeek}
+</aura:if>-->
+
+</aura:component>

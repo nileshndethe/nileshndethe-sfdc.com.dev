@@ -1,0 +1,27 @@
+<!-- Display Address Component-->
+<aura:component >
+	<aura:attribute name="Street" type="String" />
+	<aura:attribute name="City" type="String" />
+	<aura:attribute name="State" type="String" />
+	<aura:attribute name="PostalCode" type="String" />
+	<div>
+		<table>
+			<tr>
+				<td>Street: </td>
+				<td>{!v.Street}</td>
+			</tr>
+			<tr>
+				<td>City: </td>
+				<td>{!v.City}</td>
+			</tr>
+			<tr>
+				<td>State: </td>
+				<td>{!v.State}</td>
+			</tr>
+			<tr>
+				<td>PostalCode: </td>
+				<td>{!v.PostalCode}</td>
+			</tr>
+		</table>
+	</div>
+</aura:component>

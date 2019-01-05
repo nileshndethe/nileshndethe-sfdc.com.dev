@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://ndcloud-dev-ed.my.salesforce.com/services/oauth2/authorize</authorizeUrl>
+    <consumerKey>3MVG9ZL0ppGP5UrDJws0vl2lY_GtrLFP0VnOqEZqoc1S2uYlF5xS0zuwDBN8Wxi1GmkohCoNNm_sNFItD3uFO</consumerKey>
+    <consumerSecret>PlenhIBnsYNjbyjxjXEXTv05QIfNmsum</consumerSecret>
+    <defaultScopes>refresh_token full</defaultScopes>
+    <executionUser>nileshndethe@sfdc.com.dev</executionUser>
+    <friendlyName>SmartUtilities</friendlyName>
+    <iconUrl>https://login.salesforce.com/icons/salesforce-white.png</iconUrl>
+    <includeOrgIdInIdentifier>true</includeOrgIdInIdentifier>
+    <providerType>Salesforce</providerType>
+    <registrationHandler>SalesforceRegHandler</registrationHandler>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <tokenUrl>https://ndcloud-dev-ed.my.salesforce.com/services/oauth2/token</tokenUrl>
+</AuthProvider>

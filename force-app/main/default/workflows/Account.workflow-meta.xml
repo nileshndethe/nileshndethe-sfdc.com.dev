@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>send_email_notification_for_account_creation</fullName>
+        <description>send email notification for account creation</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>nileshndethe@sfdc.com.dev</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>nileshndethe@sfdc.com.test</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/test</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Set_Type_As_Customer</fullName>
+        <field>Type</field>
+        <literalValue>Customer</literalValue>
+        <name>Set Type As Customer</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Type_As_Pending</fullName>
+        <field>Type</field>
+        <literalValue>Pending</literalValue>
+        <name>Set Type As Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Type_As_Prospect</fullName>
+        <field>Type</field>
+        <literalValue>Prospect</literalValue>
+        <name>Set Type As Prospect</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Send Account Creation Notification</fullName>
+        <actions>
+            <name>send_email_notification_for_account_creation</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Name</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

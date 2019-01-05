@@ -1,0 +1,25 @@
+<aura:component controller="Excel2CsvCtrl" >
+    Using Lightning Input of type file
+    <lightning:input 
+                     type="file" 
+                     label="Import an Excel File" 
+                     name="file" 
+                     accept=".xls,.xlsx" 
+                     onchange="{! c.handleFilesChange }"/>
+    <lightning:textarea aura:id="myLtngInputTextArea" name="myLtngInputTextArea" value=""
+    label="Imported file data in ltng controller " />
+    <BR/>
+    <BR/>
+    <lightning:textarea aura:id="myLtngFileuploadTextArea" name="myLtngFileuploadTextArea" value=""
+    label="Imported file data in apex controller " />
+    <!--
+    Using Lightning FileUpload
+    <lightning:fileUpload label="Import an Excel "
+        name="fileUploader"
+        multiple="true"
+        accept=".pdf, .png"
+        recordId="{!v.myRecordId}"
+        onuploadfinished="{!c.handleUploadFinished}" />
+    
+    -->
+</aura:component>

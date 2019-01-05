@@ -1,0 +1,30 @@
+<apex:page standardController="Contact">
+    <apex:form >
+    <apex:pageBlock title="Fields in DemoSet1">
+        <apex:pageBlockTable value="{!$ObjectType.Contact.FieldSets.DemoSet1}" var="f">
+            <apex:column value="{!f}">
+                <apex:facet name="header">Name</apex:facet>
+            </apex:column> 
+            <apex:column value="{!f.Label}">
+                <apex:facet name="header">Label</apex:facet>
+            </apex:column> 
+            <apex:column value="{!f.Type}" >
+                <apex:facet name="header">Data Type</apex:facet>
+            </apex:column> 
+            
+        </apex:pageBlockTable> 
+      
+    </apex:pageBlock> 
+    <apex:pageBlock title="Fields in DemoSet1 with values">        
+        
+    <apex:repeat value="{!$ObjectType.Contact.FieldSets.DemoSet1}" var="f"> 
+       <table>
+           <tr>
+               <td style="font-weight:bold"><apex:outputLabel value="{!f.Label}"/> : </td>
+               <td><apex:outputText value="{!Contact[f]}" /><br/></td>
+           </tr>
+       </table>          
+        </apex:repeat>
+    </apex:pageBlock> 
+        </apex:form>
+</apex:page>

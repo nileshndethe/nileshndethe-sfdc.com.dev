@@ -1,0 +1,15 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <aura:attribute name="message" type="String" default="Enter test Message to send to VF page"/>
+    <aura:attribute name="vfHost" type="String" default="ndcloud-dev-ed--c.ap6.visual.force.com"/>
+    <aura:attribute name="vfMessages" type="String" default="" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <div style="background-color:lightgreen">
+        <lightning:input type="text" label="Message:" value="{!v.message}"/>
+        <lightning:button label="Send to VF" onclick="{!c.sendToVF}"/>
+        <lightning:textArea label="Message Received from VF:" value="{!v.vfMessages}"/>        
+    </div>
+    &nbsp;
+    <iframe aura:id="vfFrame" src="{!'https://'+ v.vfHost + '/apex/VFPageLtngCommunicationDemo'}" frameborder="0" width="100%" height="200"/>
+</aura:component>

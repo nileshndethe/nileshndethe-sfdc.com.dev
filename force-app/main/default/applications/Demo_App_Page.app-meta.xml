@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is testing lightning app page created using app builder</description>
+    <formFactors>Large</formFactors>
+    <label>Lightning</label>
+    <navType>Standard</navType>
+    <tab>HIT</tab>
+    <tab>standard-Feed</tab>
+    <tab>DemoAppPage</tab>
+    <tab>standard-Account</tab>
+    <tab>standard-Event</tab>
+    <tab>standard-Contact</tab>
+    <tab>bofc__Bulk_Object_Field_Creator</tab>
+    <tab>Latest_Accounts</tab>
+    <tab>HelloMobile</tab>
+    <tab>Hello_Lightning</tab>
+    <tab>bofc__Login_Details__c</tab>
+    <tab>MyLightning</tab>
+    <tab>Phone_Plan__x</tab>
+    <tab>Camping_Item__c</tab>
+    <uiType>Lightning</uiType>
+</CustomApplication>

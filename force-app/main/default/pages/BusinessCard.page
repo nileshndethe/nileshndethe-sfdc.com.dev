@@ -1,0 +1,24 @@
+<apex:page >
+    <table>
+        <tr>
+            <td>Title : </td>
+            <td>{!$User.Title}</td>
+        </tr>
+        <tr>
+            <td>First Name : </td>
+            <td>{!$User.FirstName}</td>
+        </tr>
+        <tr>
+            <td>Last Name : </td>
+            <td>{!$User.LastName}</td>
+        </tr>
+         <tr>
+            <td>Email : </td>
+            <td>{!$User.Email}</td>
+        </tr>
+         <tr>
+            <td>Phone : </td>
+            <td>{!$User.Phone}</td>
+        </tr>
+    </table>
+</apex:page>

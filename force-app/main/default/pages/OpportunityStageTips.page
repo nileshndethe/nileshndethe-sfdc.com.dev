@@ -1,0 +1,38 @@
+<apex:page doctype="html-5.0" standardcontroller="Opportunity" title="Show Opportunity Stage Tips">
+    <style>
+        .mypage .quote {
+            margin: 12px 0;
+            font-size: 64px;
+            text-align: center;
+        }
+
+        .mypage .delta {
+            font-size: 24px;
+            text-align: center;
+            color: green;
+        }
+    </style>
+
+    <apex:remoteobjects >
+        <apex:remoteobjectmodel name="Opportunity" fields="Id,StageName,Probability" />
+    </apex:remoteobjects>
+    <div class="mypage">
+        <script>alert('{!Opportunity.StageName}');</script>
+        <div id="Prospecting1" style="display:{! IF(Opportunity.StageName == 'Prospecting', 'Block', 'None')}">
+            <div class="quote">{!Opportunity.StageName}</div>
+            <div class="delta">{!Opportunity.Probability}</div>
+        </div>
+        <div id="Prospecting2" style="display:{ ! IF(Opportunity.StageName == 'Needs Analysis', 'Block', 'None') }">
+            <div class="quote">{!Opportunity.StageName}</div>
+            <div class="delta">{!Opportunity.Probability}</div>
+        </div>
+        <div id="Prospecting3" style="display:{ ! IF(Opportunity.StageName == 'Proposal/Price Quote', 'Block', 'None')}">
+            <div class="quote">{!Opportunity.StageName}</div>
+            <div class="delta">{!Opportunity.Probability}</div>
+        </div>
+        <div id="Prospecting4" style="display:{ ! IF(Opportunity.StageName ==  'Negotiation/Review', 'Block', 'None')}">
+            <div class="quote">{!Opportunity.StageName}</div>
+            <div class="delta">{!Opportunity.Probability}</div>
+        </div>
+    </div>
+</apex:page>

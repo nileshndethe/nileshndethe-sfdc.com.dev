@@ -1,0 +1,31 @@
+Shailendra Argulwar
+2:27 PM
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1">
+	<title></title>
+		<style>
+			body{font-family:verdana; font-size:12px;}
+			.emailer{width:100%; background-color:#FF0000;}
+			.header{border:1px solid #000; height:100px; width:100%;}
+.blue{background-color:blue; width:50%; float:left;}
+.white{background-color:#fff; width:50%; float:left;}
+		</style>
+	</head>
+<body>
+	<div class="emailer">
+		<div class="header">
+			<div class="blue">dflj</div>
+                        <div class="white">dfgsdfgs</div>
+		</div>
+		<div>
+			
+		</div>
+		
+	</div>
+	Test formula field : {!Case.Case_Base_URL__c} eof
+</body>
+</html>

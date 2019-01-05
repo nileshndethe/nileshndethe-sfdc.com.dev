@@ -1,0 +1,4 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+   <h2>Hello LCAppBuilder</h2>
+    <c:DisplayCase />
+</aura:component>

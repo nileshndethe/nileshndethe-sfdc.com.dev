@@ -1,0 +1,13 @@
+<apex:page showheader="false" sidebar="false" standardstylesheets="false"
+           applyhtmltag="false" applybodytag="false">
+    <ion-view view-title="Contacts">
+        <ion-content id="content" class="has-header">
+            <ion-list>
+                <ion-item ng-repeat="contact in contacts">
+                    {{ contact.name }}
+                    <p>{{ contact.title }}</p>
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-view>
+</apex:page>

@@ -1,0 +1,27 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" controller="Excel2CsvCtrl" access="global">
+    <ltng:require scripts="{!$Resource.xlsx}" />
+    <ltng:require scripts="{!$Resource.jszip}" />
+    <aura:attribute name="FileList" type="Object" />
+    <aura:attribute name="loaded" type="Boolean" default="true" />
+
+    <div class="mainHolderDiv">
+        <aura:if isTrue="{! v.loaded }">
+            <lightning:card title="Excel to CVS Converter">
+                <aura:set attribute="actions">
+                    <lightning:button variant="success" label="Save As CSV Attachment" title="Success" onclick="{! c.saveFileAsCSV }" />
+                </aura:set>
+                <p class="slds-p-horizontal_small">
+                    <lightning:input aura:id="file-input" accept=".xls,.xlsx" type="file" files="{!v.FileList}" label="Files"
+                        name="file" multiple="false" onchange="{!c.upload}" />
+                    <BR />
+                    <lightning:textarea aura:id="myLtngFileuploadTextArea" name="myLtngFileuploadTextArea" value=""
+                        label="Imported excel file data in csv format:" />
+                    <BR />
+                </p>
+            </lightning:card>
+            <aura:set attribute="else">
+                <lightning:spinner alternativeText="Processing Excel..." size="medium" />
+            </aura:set>
+        </aura:if>
+    </div>
+</aura:component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>nilesh.ndethe@hotmail.com</contactEmail>
+    <contactPhone>919921860863</contactPhone>
+    <description>This is test connected app created to demonstrate Named Credential Authentication Flow.</description>
+    <iconUrl>https://login.salesforce.com/logos/Salesforce/SalesforcePlatform/icon.png</iconUrl>
+    <label>SmartUtilities</label>
+    <logoUrl>https://login.salesforce.com/logos/Salesforce/SalesforcePlatform/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/authcallback/00D28000000L8S3EAK/SmartUtilities</callbackUrl>
+        <consumerKey>3MVG9ZL0ppGP5UrDJws0vl2lY_GtrLFP0VnOqEZqoc1S2uYlF5xS0zuwDBN8Wxi1GmkohCoNNm_sNFItD3uFO</consumerKey>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>

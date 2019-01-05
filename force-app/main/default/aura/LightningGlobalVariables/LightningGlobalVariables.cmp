@@ -1,0 +1,21 @@
+<aura:component >
+    "Is Tablet " : {!$Browser.isTablet}<br/>
+    "Is Phone " : {!$Browser.isPhone}<br/>
+    "Is Android " : {!$Browser.isAndroid}<br/>
+    "Is formFactor " : {!$Browser.formFactor}<br/>
+    <aura:attribute name="bStatus" type="Boolean" /><br/>
+    {!v.bStatus}<br/>
+    <ui:button label="Get Browser Status" press="{!c.getBrowserStatus}"></ui:button>
+    <br/>============================================================================
+    <br/>
+
+    "Language ": {!$Locale.language}<br/>
+    "Timezone ": {!$Locale.timezone}<br/>
+    "Number Format ": {!$Locale.numberFormat}<br/>
+    "Currency Format ": {!$Locale.currencyFormat}<br/>
+    <aura:attribute name="lStatus" type="String" /><br/>
+    {!v.lStatus}<br/>
+    <ui:button label="Get Locale Status" press="{!c.getLocaleStatus}"></ui:button>
+
+
+</aura:component>

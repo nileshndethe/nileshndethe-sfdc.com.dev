@@ -44,21 +44,25 @@
         <customTabListAdditionalFields>Type</customTabListAdditionalFields>
         <customTabListAdditionalFields>StartDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>EndDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ChannelPartner</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Amount</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Type</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>StartDate</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>EndDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ChannelPartner</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Amount</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Type</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>StartDate</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>EndDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ChannelPartner</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Amount</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Type</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>StartDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>EndDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ChannelPartner</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

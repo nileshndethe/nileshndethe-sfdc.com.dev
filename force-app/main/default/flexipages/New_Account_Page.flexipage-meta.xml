@@ -118,6 +118,9 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
+            <componentName>DemoEvents</componentName>
+        </componentInstances>
+        <componentInstances>
             <componentName>POC_Excel2Csv</componentName>
         </componentInstances>
         <componentInstances>

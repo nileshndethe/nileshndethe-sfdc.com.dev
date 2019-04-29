@@ -16,7 +16,6 @@
                 if(confirm("The uploaded excel contains more than one worksheet out of which by defalut first worksheet \"" +workbook.SheetNames[0]+ "\" will be processed. Do you want to procceed?")){
                     var fileContentAsCSV = XLSX.utils.sheet_to_csv(workbook.Sheets[sheet_name_list[0]]);
                     component.find("myLtngFileuploadTextArea").set("v.value", fileContentAsCSV);
-                    
                 }
             }
             else{

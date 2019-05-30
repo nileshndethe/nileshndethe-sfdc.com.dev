@@ -1,0 +1,37 @@
+=== Test Reports
+FORMAT  FILE
+──────  ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+txt     c:\My Hands On Practice\vscode-workspace\nileshndethe@sfdc.com.dev\.sfdx\tools\testresults\apex\test-result.txt
+txt     c:\My Hands On Practice\vscode-workspace\nileshndethe@sfdc.com.dev\.sfdx\tools\testresults\apex\test-run-id.txt
+junit   c:\My Hands On Practice\vscode-workspace\nileshndethe@sfdc.com.dev\.sfdx\tools\testresults\apex\test-result-7070K00009tjtM8-junit.xml
+json    c:\My Hands On Practice\vscode-workspace\nileshndethe@sfdc.com.dev\.sfdx\tools\testresults\apex\test-result-7070K00009tjtM8.json
+
+=== Test Results
+TEST NAME                             OUTCOME  MESSAGE  RUNTIME (MS)
+────────────────────────────────────  ───────  ───────  ────────────
+CaseManagerTest.testCreateCase        Pass              311
+CaseManagerTest.testDeleteCase        Pass              1025
+CaseManagerTest.testGetCaseById       Pass              310
+CaseManagerTest.testUpdateCaseFields  Pass              110
+CaseManagerTest.testUpsertCase        Pass              113
+
+=== Test Summary
+NAME                 VALUE
+───────────────────  ─────────────────────────────────────────
+Outcome              Passed
+Tests Ran            5
+Passing              5
+Failing              0
+Skipped              0
+Pass Rate            100%
+Fail Rate            0%
+Test Start Time      Apr 30, 2019 12:28 PM
+Test Execution Time  1869 ms
+Test Total Time      1869 ms
+Command Time         13283 ms
+Hostname             https://ndcloud-dev-ed.my.salesforce.com
+Org Id               00D28000000L8S3EAK
+Username             nileshndethe@sfdc.com.dev
+Test Run Id          7070K00009tjtM8
+User Id              00528000000nZsNAAU
+

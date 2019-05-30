@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2019-04-30T12:28:39+05:30" hostname="https://ndcloud-dev-ed.my.salesforce.com" tests="5" failures="0"  errors="0"  time="1.87">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="5"/>
+            <property name="passing" value="5"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Apr 30, 2019 12:28 PM"/>
+            <property name="testExecutionTime" value="1.87 s"/>
+            <property name="testTotalTime" value="1.87 s"/>
+            <property name="commandTime" value="13.28 s"/>
+            <property name="hostname" value="https://ndcloud-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D28000000L8S3EAK"/>
+            <property name="username" value="nileshndethe@sfdc.com.dev"/>
+            <property name="testRunId" value="7070K00009tjtM8"/>
+            <property name="userId" value="00528000000nZsNAAU"/>
+        </properties>
+        <testcase name="testCreateCase" classname="CaseManagerTest" time="0.31">
+        </testcase>
+        <testcase name="testDeleteCase" classname="CaseManagerTest" time="1.03">
+        </testcase>
+        <testcase name="testGetCaseById" classname="CaseManagerTest" time="0.31">
+        </testcase>
+        <testcase name="testUpdateCaseFields" classname="CaseManagerTest" time="0.11">
+        </testcase>
+        <testcase name="testUpsertCase" classname="CaseManagerTest" time="0.11">
+        </testcase>
+    </testsuite>
+</testsuites>

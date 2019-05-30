@@ -1,0 +1,142 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 5,
+        "passing": 5,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Apr 30, 2019 12:28 PM",
+        "testExecutionTime": "1869 ms",
+        "testTotalTime": "1869 ms",
+        "commandTime": "13283 ms",
+        "hostname": "https://ndcloud-dev-ed.my.salesforce.com",
+        "orgId": "00D28000000L8S3EAK",
+        "username": "nileshndethe@sfdc.com.dev",
+        "testRunId": "7070K00009tjtM8",
+        "userId": "00528000000nZsNAAU"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M0K000007FiT0UAK"
+            },
+            "Id": "07M0K000007FiT0UAK",
+            "QueueItemId": "7090K000000XBGwQAO",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7070K00009tjtM8QAI",
+            "MethodName": "testCreateCase",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0K00000GsWs2QAF"
+                },
+                "Id": "01p0K00000GsWs2QAF",
+                "Name": "CaseManagerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 311,
+            "FullName": "CaseManagerTest.testCreateCase"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M0K000007FiT1UAK"
+            },
+            "Id": "07M0K000007FiT1UAK",
+            "QueueItemId": "7090K000000XBGwQAO",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7070K00009tjtM8QAI",
+            "MethodName": "testDeleteCase",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0K00000GsWs2QAF"
+                },
+                "Id": "01p0K00000GsWs2QAF",
+                "Name": "CaseManagerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 1025,
+            "FullName": "CaseManagerTest.testDeleteCase"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M0K000007FiT2UAK"
+            },
+            "Id": "07M0K000007FiT2UAK",
+            "QueueItemId": "7090K000000XBGwQAO",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7070K00009tjtM8QAI",
+            "MethodName": "testGetCaseById",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0K00000GsWs2QAF"
+                },
+                "Id": "01p0K00000GsWs2QAF",
+                "Name": "CaseManagerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 310,
+            "FullName": "CaseManagerTest.testGetCaseById"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M0K000007FiT3UAK"
+            },
+            "Id": "07M0K000007FiT3UAK",
+            "QueueItemId": "7090K000000XBGwQAO",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7070K00009tjtM8QAI",
+            "MethodName": "testUpdateCaseFields",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0K00000GsWs2QAF"
+                },
+                "Id": "01p0K00000GsWs2QAF",
+                "Name": "CaseManagerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 110,
+            "FullName": "CaseManagerTest.testUpdateCaseFields"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M0K000007FiT4UAK"
+            },
+            "Id": "07M0K000007FiT4UAK",
+            "QueueItemId": "7090K000000XBGwQAO",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7070K00009tjtM8QAI",
+            "MethodName": "testUpsertCase",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0K00000GsWs2QAF"
+                },
+                "Id": "01p0K00000GsWs2QAF",
+                "Name": "CaseManagerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 113,
+            "FullName": "CaseManagerTest.testUpsertCase"
+        }
+    ]
+}

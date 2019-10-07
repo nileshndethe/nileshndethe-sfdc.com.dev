@@ -2,10 +2,15 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
-    <tab>standard-AppLauncher</tab>
-    <tab>Latest_Accounts</tab>
-    <tab>HelloMobile</tab>
-    <tab>Business_Card</tab>
-    <tab>Ionic</tab>
-    <tab>MobileContacts</tab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <tabs>standard-AppLauncher</tabs>
+    <tabs>Latest_Accounts</tabs>
+    <tabs>HelloMobile</tabs>
+    <tabs>Business_Card</tabs>
+    <tabs>Ionic</tabs>
+    <tabs>MobileContacts</tabs>
+    <tabs>Battle_Station__c</tabs>
+    <tabs>Resource__c</tabs>
+    <tabs>Supply__c</tabs>
 </CustomApplication>

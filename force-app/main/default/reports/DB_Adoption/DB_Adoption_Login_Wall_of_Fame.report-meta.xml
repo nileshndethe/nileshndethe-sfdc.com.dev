@@ -62,6 +62,8 @@
     </params>
     <reportType>User</reportType>
     <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <sortColumn>LOGIN_DATE</sortColumn>
     <sortOrder>Asc</sortOrder>
     <timeFrameFilter>

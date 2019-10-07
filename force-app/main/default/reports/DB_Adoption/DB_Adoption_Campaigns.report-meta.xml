@@ -62,4 +62,6 @@
     <reportType>CampaignList</reportType>
     <scope>orgAll</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
 </Report>

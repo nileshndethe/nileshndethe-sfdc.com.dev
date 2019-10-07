@@ -15,10 +15,12 @@
             <value>
                 <fullName>en</fullName>
                 <default>false</default>
+                <label>en</label>
             </value>
             <value>
                 <fullName>es</fullName>
                 <default>false</default>
+                <label>es</label>
             </value>
         </valueSetDefinition>
     </valueSet>

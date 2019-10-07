@@ -14,21 +14,25 @@
                 <fullName>NA</fullName>
                 <color>#009900</color>
                 <default>false</default>
+                <label>NA</label>
             </value>
             <value>
                 <fullName>EMEA</fullName>
                 <color>#3333FF</color>
                 <default>false</default>
+                <label>EMEA</label>
             </value>
             <value>
                 <fullName>APAC</fullName>
                 <color>#CC6600</color>
                 <default>false</default>
+                <label>APAC</label>
             </value>
             <value>
                 <fullName>LA</fullName>
                 <color>#990000</color>
                 <default>false</default>
+                <label>LA</label>
             </value>
         </valueSetDefinition>
     </valueSet>

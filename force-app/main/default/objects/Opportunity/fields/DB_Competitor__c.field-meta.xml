@@ -14,14 +14,17 @@
             <value>
                 <fullName>Competitor A</fullName>
                 <default>false</default>
+                <label>Competitor A</label>
             </value>
             <value>
                 <fullName>Competitor B</fullName>
                 <default>false</default>
+                <label>Competitor B</label>
             </value>
             <value>
                 <fullName>Competitor C</fullName>
                 <default>false</default>
+                <label>Competitor C</label>
             </value>
         </valueSetDefinition>
     </valueSet>

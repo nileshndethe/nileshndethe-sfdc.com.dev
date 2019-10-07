@@ -23,6 +23,9 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
+            <componentName>helloWorldLWC</componentName>
+        </componentInstances>
+        <componentInstances>
             <componentInstanceProperties>
                 <name>numberOfTopics</name>
                 <value>5</value>
@@ -40,6 +43,8 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Standard Manager Home Page</masterLabel>
-    <pageTemplate>home:desktopTemplate</pageTemplate>
+    <template>
+        <name>home:desktopTemplate</name>
+    </template>
     <type>HomePage</type>
 </FlexiPage>

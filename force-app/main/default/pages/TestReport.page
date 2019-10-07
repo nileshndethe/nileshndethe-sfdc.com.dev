@@ -1,0 +1,4 @@
+<apex:page standardController="case">
+    This is test for report in visualforce page
+    <apex:iframe src="/00O28000003TQMV" height="650px" width="100%"/>
+</apex:page>

@@ -9,6 +9,7 @@
     <oauthConfig>
         <callbackUrl>https://login.salesforce.com/services/authcallback/00D28000000L8S3EAK/SmartUtilities</callbackUrl>
         <consumerKey>3MVG9ZL0ppGP5UrDJws0vl2lY_GtrLFP0VnOqEZqoc1S2uYlF5xS0zuwDBN8Wxi1GmkohCoNNm_sNFItD3uFO</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
         <scopes>Api</scopes>
         <scopes>Full</scopes>
         <scopes>RefreshToken</scopes>

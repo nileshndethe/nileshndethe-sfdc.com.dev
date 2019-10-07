@@ -14,18 +14,22 @@
             <value>
                 <fullName>Pre-Market</fullName>
                 <default>false</default>
+                <label>Pre-Market</label>
             </value>
             <value>
                 <fullName>Listed</fullName>
                 <default>false</default>
+                <label>Listed</label>
             </value>
             <value>
                 <fullName>Under Contract</fullName>
                 <default>false</default>
+                <label>Under Contract</label>
             </value>
             <value>
                 <fullName>Sold</fullName>
                 <default>false</default>
+                <label>Sold</label>
             </value>
         </valueSetDefinition>
     </valueSet>

@@ -57,6 +57,8 @@
     </params>
     <reportType>User</reportType>
     <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <sortColumn>ACTIVE</sortColumn>
     <sortOrder>Asc</sortOrder>
     <timeFrameFilter>

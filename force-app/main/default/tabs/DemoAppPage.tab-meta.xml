@@ -3,6 +3,5 @@
     <description>Created by Lightning App Builder</description>
     <flexiPage>DemoAppPage</flexiPage>
     <label>DemoAppPage</label>
-    <mobileReady>true</mobileReady>
     <motif>Custom2: Fan</motif>
 </CustomTab>

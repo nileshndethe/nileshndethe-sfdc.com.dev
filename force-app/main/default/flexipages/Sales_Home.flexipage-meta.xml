@@ -29,6 +29,8 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Sales Home</masterLabel>
-    <pageTemplate>home:desktopTemplate</pageTemplate>
+    <template>
+        <name>home:desktopTemplate</name>
+    </template>
     <type>HomePage</type>
 </FlexiPage>

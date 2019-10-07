@@ -2,6 +2,12 @@
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>test</name>
+    <queueMembers>
+        <users>
+            <user>nileshndethe@sfdc.com.dev</user>
+            <user>nileshndethe@sfdc.com.test</user>
+        </users>
+    </queueMembers>
     <queueSobject>
         <sobjectType>AccountBrand</sobjectType>
     </queueSobject>

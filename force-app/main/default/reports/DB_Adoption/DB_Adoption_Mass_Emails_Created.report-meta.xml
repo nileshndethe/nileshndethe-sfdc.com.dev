@@ -55,6 +55,8 @@
     </params>
     <reportType>EmailStatus</reportType>
     <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <sortColumn>TIMESOPENED</sortColumn>
     <sortOrder>Asc</sortOrder>
     <timeFrameFilter>

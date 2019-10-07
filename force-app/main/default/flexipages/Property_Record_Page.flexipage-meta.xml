@@ -131,8 +131,10 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Property Record Page</masterLabel>
-    <pageTemplate>flexipage:recordHomeTemplateDesktop</pageTemplate>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
     <sobjectType>Property__c</sobjectType>
+    <template>
+        <name>flexipage:recordHomeTemplateDesktop</name>
+    </template>
     <type>RecordPage</type>
 </FlexiPage>

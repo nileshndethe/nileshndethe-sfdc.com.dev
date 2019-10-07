@@ -3,6 +3,5 @@
     <auraComponent>HIT_Demo_Component</auraComponent>
     <description>test</description>
     <label>HIT Tab</label>
-    <mobileReady>false</mobileReady>
     <motif>Custom70: Handsaw</motif>
 </CustomTab>

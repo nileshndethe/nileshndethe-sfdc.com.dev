@@ -1,0 +1,40 @@
+<apex:page controller="GoogleDriveFileUploadController">
+    <style>
+        .error {
+        font-style: italic;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        color: red;
+        }
+        
+        .myClass {
+        width: 300px;
+        font-size: 20px !important;
+        }
+    </style>
+    <apex:form style="margin-top:5%;margin-left:5%;width:60%">
+        <apex:pageblock >
+            <apex:pageBlockSection title="Google Authentication">
+                <apex:commandbutton styleClass="myClass" onclick="this.value = 'Authenticating....'" action="{!DriveAuth}" value="Authorize">
+                </apex:commandbutton>
+                <apex:outputText title="Authentication Status" id="authStatusMsg" value="{!authStatus}"></apex:outputText>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Select and upload file to Drive account">
+                <apex:pageBlockSectionItem labelTitle="Select file to upload">
+                    <apex:inputfile value="{!file}" contentType="{!filetype}" filename="{!filename}" />
+                </apex:pageBlockSectionItem>
+                <br/>
+                <apex:pageBlockSectionItem labelTitle="Upload selected file to Google Drive">
+                    <apex:commandButton styleClass="myClass" onclick="this.value = 'Uploading...'" value="Upload to Drive" action="{!UploadFile}" />
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputText style="color:green" value="{!uploadResp}"></apex:outputText>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            
+            <apex:messages styleClass="error"  />
+            <br/>
+        </apex:pageblock>
+    </apex:form>
+</apex:page>

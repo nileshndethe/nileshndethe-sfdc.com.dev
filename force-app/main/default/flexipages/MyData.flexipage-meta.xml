@@ -23,6 +23,8 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>MyData</masterLabel>
-    <pageTemplate>flexipage:defaultAppHomeTemplate</pageTemplate>
+    <template>
+        <name>flexipage:defaultAppHomeTemplate</name>
+    </template>
     <type>AppPage</type>
 </FlexiPage>

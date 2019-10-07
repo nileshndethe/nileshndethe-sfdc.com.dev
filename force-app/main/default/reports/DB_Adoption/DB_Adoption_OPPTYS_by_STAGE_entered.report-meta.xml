@@ -54,6 +54,8 @@
     <reportType>OpportunityHistory</reportType>
     <scope>all</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <sortColumn>LAST_UPDATE</sortColumn>
     <sortOrder>Asc</sortOrder>
     <timeFrameFilter>

@@ -2,21 +2,34 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>This is testing lightning app page created using app builder</description>
     <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Lightning</label>
     <navType>Standard</navType>
-    <tab>HIT</tab>
-    <tab>standard-Feed</tab>
-    <tab>DemoAppPage</tab>
-    <tab>standard-Account</tab>
-    <tab>standard-Event</tab>
-    <tab>standard-Contact</tab>
-    <tab>bofc__Bulk_Object_Field_Creator</tab>
-    <tab>Latest_Accounts</tab>
-    <tab>HelloMobile</tab>
-    <tab>Hello_Lightning</tab>
-    <tab>bofc__Login_Details__c</tab>
-    <tab>MyLightning</tab>
-    <tab>Phone_Plan__x</tab>
-    <tab>Camping_Item__c</tab>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Sales_Home</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Custom: Sales Profile</profile>
+    </profileActionOverrides>
+    <tabs>HIT</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>DemoAppPage</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>bofc__Bulk_Object_Field_Creator</tabs>
+    <tabs>Latest_Accounts</tabs>
+    <tabs>HelloMobile</tabs>
+    <tabs>Hello_Lightning</tabs>
+    <tabs>bofc__Login_Details__c</tabs>
+    <tabs>MyLightning</tabs>
+    <tabs>Phone_Plan__x</tabs>
+    <tabs>Camping_Item__c</tabs>
+    <tabs>Battle_Station__c</tabs>
+    <tabs>Resource__c</tabs>
+    <tabs>Supply__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

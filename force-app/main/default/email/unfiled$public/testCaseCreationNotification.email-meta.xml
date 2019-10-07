@@ -7,4 +7,5 @@
     <style>none</style>
     <subject>Your {!Case.Case_Base_URL__c} has been created successfully!!</subject>
     <type>custom</type>
+    <uiType>Aloha</uiType>
 </EmailTemplate>

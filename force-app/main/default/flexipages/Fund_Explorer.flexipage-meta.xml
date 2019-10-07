@@ -88,6 +88,8 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Fund Explorer</masterLabel>
-    <pageTemplate>flexipage:appHomeTemplateHeaderTwoColumns</pageTemplate>
+    <template>
+        <name>flexipage:appHomeTemplateHeaderTwoColumns</name>
+    </template>
     <type>AppPage</type>
 </FlexiPage>

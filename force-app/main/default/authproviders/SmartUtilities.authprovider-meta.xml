@@ -12,5 +12,6 @@
     <registrationHandler>SalesforceRegHandler</registrationHandler>
     <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
     <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
     <tokenUrl>https://ndcloud-dev-ed.my.salesforce.com/services/oauth2/token</tokenUrl>
 </AuthProvider>

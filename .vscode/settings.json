@@ -8,5 +8,6 @@
     "terminal.integrated.env.windows": {
         "SFDX_SET_CLIENT_IDS": "sfdx-vscode"
     },
-    "salesforcedx-vscode-core.show-cli-success-msg": false
+    "salesforcedx-vscode-core.show-cli-success-msg": false,
+    "salesforcedx-vscode-apex.java.home": "C:\\Program Files (x86)\\Java\\jre1.8.0_211"
 }

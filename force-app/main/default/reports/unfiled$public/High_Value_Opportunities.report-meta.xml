@@ -18,15 +18,18 @@
     <columns>
         <field>FULL_NAME</field>
     </columns>
+    <currency>USD</currency>
     <filter>
         <criteriaItems>
             <column>AMOUNT</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>greaterThan</operator>
-            <value>25000</value>
+            <value>USD 25000</value>
         </criteriaItems>
         <criteriaItems>
             <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>notEqual</operator>
             <value>Closed Won,Closed Lost</value>

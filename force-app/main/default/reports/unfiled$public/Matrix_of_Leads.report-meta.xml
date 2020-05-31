@@ -21,6 +21,7 @@
     <columns>
         <field>EMAIL</field>
     </columns>
+    <currency>USD</currency>
     <format>Matrix</format>
     <groupingsAcross>
         <dateGranularity>Day</dateGranularity>

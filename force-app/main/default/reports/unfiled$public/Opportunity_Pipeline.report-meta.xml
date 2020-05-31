@@ -45,6 +45,7 @@
     <columns>
         <field>ACCOUNT_NAME</field>
     </columns>
+    <currency>USD</currency>
     <description>All opportunities in Salesforce</description>
     <format>Tabular</format>
     <name>Opportunity Pipeline</name>

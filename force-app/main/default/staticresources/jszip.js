@@ -509,7 +509,7 @@ Usage:
  * @param {Object=} options the options for creating this objects (optional).
  */
 function JSZipSync(data, options) {
-    // if this constructor is used without `new`, it adds `new` before itself:
+    // if this constructor is used without `new`, it adds `new` before itself:
     if(!(this instanceof JSZipSync)) return new JSZipSync(data, options);
 
     // object containing the files :

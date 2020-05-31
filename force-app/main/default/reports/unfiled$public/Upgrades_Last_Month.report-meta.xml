@@ -43,9 +43,11 @@
     <columns>
         <field>ACCOUNT_NAME</field>
     </columns>
+    <currency>USD</currency>
     <filter>
         <criteriaItems>
             <column>TYPE</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
             <value>Existing Customer - Upgrade</value>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <dataCategory>
+                        <label>Sub Category 3</label>
+                        <name>Sub_Category_3</name>
+                    </dataCategory>
+                    <label>Sub Category 2</label>
+                    <name>Sub_Category_2</name>
+                </dataCategory>
+                <label>Sub Category 1</label>
+                <name>Sub_Category_1</name>
+            </dataCategory>
+            <label>Test Category 1</label>
+            <name>Test_Category_1</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Sub Category 4</label>
+                <name>Sub_Category_4</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sub Category 5</label>
+                <name>Sub_Category_5</name>
+            </dataCategory>
+            <label>Test Category 2</label>
+            <name>Test_Category_2</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>test</description>
+    <label>SFDC</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

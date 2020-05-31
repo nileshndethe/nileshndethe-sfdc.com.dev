@@ -34,12 +34,14 @@
     <filter>
         <criteriaItems>
             <column>LOGIN_DATE</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
             <value>LAST_N_DAYS:14</value>
         </criteriaItems>
         <criteriaItems>
             <column>ACTIVE</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
             <value>1</value>

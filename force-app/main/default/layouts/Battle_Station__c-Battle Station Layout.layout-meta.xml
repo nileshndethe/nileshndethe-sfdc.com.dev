@@ -15,6 +15,10 @@
                 <behavior>Readonly</behavior>
                 <field>Crew_Members__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CurrencyIsoCode</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

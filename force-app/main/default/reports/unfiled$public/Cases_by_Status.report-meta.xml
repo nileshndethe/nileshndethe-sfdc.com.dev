@@ -21,6 +21,7 @@
     <columns>
         <field>ACCOUNT.NAME</field>
     </columns>
+    <currency>USD</currency>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>

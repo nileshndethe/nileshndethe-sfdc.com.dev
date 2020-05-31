@@ -40,18 +40,21 @@
     <columns>
         <field>ROLLUP_DESCRIPTION</field>
     </columns>
+    <currency>USD</currency>
     <filter>
         <criteriaItems>
             <column>PROBABILITY</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>greaterThan</operator>
             <value>30</value>
         </criteriaItems>
         <criteriaItems>
             <column>AMOUNT</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>greaterThan</operator>
-            <value>50000</value>
+            <value>USD 50000</value>
         </criteriaItems>
     </filter>
     <format>Summary</format>

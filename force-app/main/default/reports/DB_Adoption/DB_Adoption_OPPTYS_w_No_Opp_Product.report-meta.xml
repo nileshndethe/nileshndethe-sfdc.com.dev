@@ -24,16 +24,18 @@
     <columns>
         <field>PRODUCT_NAME</field>
     </columns>
-    <description>Opportunities that don&#39;t have opportunity products and STAGE &gt; Needs Analysis</description>
+    <description>Opportunities that don&apos;t have opportunity products and STAGE &gt; Needs Analysis</description>
     <filter>
         <criteriaItems>
             <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
             <value>Proposal/Price Quote,Negotiation/Review</value>
         </criteriaItems>
         <criteriaItems>
             <column>PRODUCT_NAME</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
             <value/>

@@ -4,15 +4,17 @@
     <analyticsAdoptionMetadata>false</analyticsAdoptionMetadata>
     <canAccessAnalyticsViaAPI>false</canAccessAnalyticsViaAPI>
     <canAnnotateDashboards>false</canAnnotateDashboards>
+    <canEnableLiveMetrics>false</canEnableLiveMetrics>
     <canEnableSavedView>false</canEnableSavedView>
     <canExploreDataConversationally>false</canExploreDataConversationally>
     <canShareAppsWithCommunities>false</canShareAppsWithCommunities>
     <canSubscribeDashboardWidgets>false</canSubscribeDashboardWidgets>
     <canViewThumbnailAssets>false</canViewThumbnailAssets>
-    <enableAnalyticsSubtotals>false</enableAnalyticsSubtotals>
+    <enableAnalyticsSharingEnable>true</enableAnalyticsSharingEnable>
     <enableAutoCompleteCombo>true</enableAutoCompleteCombo>
     <enableDashboardComponentSnapshot>true</enableDashboardComponentSnapshot>
     <enableDashboardFlexiTable>true</enableDashboardFlexiTable>
+    <enableDataBlending>false</enableDataBlending>
     <enableEmailReportsToPortalUsers>false</enableEmailReportsToPortalUsers>
     <enableFloatingReportHeaders>true</enableFloatingReportHeaders>
     <enableInsights>false</enableInsights>
@@ -20,13 +22,17 @@
     <enableLotusNotesImages>false</enableLotusNotesImages>
     <enableMassEnableReportBuilder>true</enableMassEnableReportBuilder>
     <enableNewChartsEngine>true</enableNewChartsEngine>
+    <enableQueryLiveConnectors>false</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
     <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
-    <enableReportFieldToFieldPref>false</enableReportFieldToFieldPref>
-    <enableReportUniqueRowCountPref>false</enableReportUniqueRowCountPref>
+    <enableReportNotificationsEnable>true</enableReportNotificationsEnable>
+    <enableS1AnalyticsEclairEnable>true</enableS1AnalyticsEclairEnable>
     <enableSFXJoinedReportsEnable>false</enableSFXJoinedReportsEnable>
     <enableUseOldChartsLookAndFeel>false</enableUseOldChartsLookAndFeel>
+    <enableWaveRecordNavigation>false</enableWaveRecordNavigation>
     <enableWaveReplication>false</enableWaveReplication>
     <enableWaveSharingInheritance>false</enableWaveSharingInheritance>
     <enableWaveTemplate>false</enableWaveTemplate>
+    <replaceBlankMeasuresWithNulls>false</replaceBlankMeasuresWithNulls>
+    <turnOnTimeZones>false</turnOnTimeZones>
 </AnalyticsSettings>

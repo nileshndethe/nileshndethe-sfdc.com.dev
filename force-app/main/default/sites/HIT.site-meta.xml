@@ -25,6 +25,7 @@
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>nileshndethe@sfdc.com.dev</siteAdmin>
+    <siteGuestRecordDefaultOwner>nileshndethe@sfdc.com.dev</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <subdomain>ndcloud-developer-edition</subdomain>
     <urlPathPrefix>exthit</urlPathPrefix>

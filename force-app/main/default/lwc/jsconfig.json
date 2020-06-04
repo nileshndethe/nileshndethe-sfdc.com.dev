@@ -1,6 +1,24 @@
 {
     "compilerOptions": {
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/helloWorldLWC": [
+                "helloWorldLWC/helloWorldLWC.js"
+            ],
+            "c/myComponent": [
+                "myComponent/myComponent.js"
+            ],
+            "c/leaflet": [
+                "../staticresources/leaflet/leaflet.js"
+            ],
+            "c/nouislider": [
+                "../staticresources/nouislider/nouislider.js"
+            ],
+            "c/knowledgeArticleTreePreview": [
+                "knowledgeArticleTreePreview/knowledgeArticleTreePreview.js"
+            ]
+        }
     },
     "include": [
         "**/*",

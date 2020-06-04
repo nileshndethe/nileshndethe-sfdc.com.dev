@@ -26,6 +26,19 @@
       "lastModifiedDate": "2019-07-16T12:05:06.000Z",
       "manageableState": "unmanaged",
       "type": "LightningComponentBundle"
+    },
+    {
+      "createdById": "00528000000nZsNAAU",
+      "createdByName": "Nilesh Dethe",
+      "createdDate": "2020-05-31T13:00:17.000Z",
+      "fileName": "lwc/knowledgeArticleTreePreview",
+      "fullName": "knowledgeArticleTreePreview",
+      "id": "0Rb0K000000PEFnSAO",
+      "lastModifiedById": "00528000000nZsNAAU",
+      "lastModifiedByName": "Nilesh Dethe",
+      "lastModifiedDate": "2020-05-31T18:01:56.000Z",
+      "manageableState": "unmanaged",
+      "type": "LightningComponentBundle"
     }
   ]
 }
